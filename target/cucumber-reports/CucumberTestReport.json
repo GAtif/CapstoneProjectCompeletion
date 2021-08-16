@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2770861900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Retail website",
+            "match": {
+              "location": "DesktopStepDefinitions.user_is_on_Retail_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4409077600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User empty Shopping cart message displays",
+        "description": "",
+        "id": "checking-cart;user-empty-shopping-cart-message-displays",
+        "after": [
+          {
+            "result": {
+              "duration": 943666400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Initializer.afterHooks(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2548406900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on shopping cart",
+            "match": {
+              "location": "CartCheckStepDefinition.user_click_on_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2550035200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "“Your shopping cart is empty!” message should display",
+            "match": {
+              "location": "CartCheckStepDefinition.your_shopping_cart_is_empty_message_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@LastOne"
+          }
+        ]
+      }
+    ],
+    "name": "Checking Cart",
+    "description": "",
+    "id": "checking-cart",
+    "keyword": "Feature",
+    "uri": "EmptyShoppingCart.feature"
+  }
+]
